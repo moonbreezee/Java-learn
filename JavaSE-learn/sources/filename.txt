@@ -1,0 +1,1 @@
+Java API中有很多类可以用来读写文件: FileReader、BufferedReader、Files、Scanner、FileInputStream、FileWriter、BufferedWriter、FileOutputStream等，可根据需要选择。

@@ -1,0 +1,31 @@
+/target/
+.mvn
+mvnw
+mvnw.cmd
+codes
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/书本/HeadFirstJava_第二版中文完整高清版.pdf
+阿里巴巴Java开发手册_华山版.pdf
+/书本

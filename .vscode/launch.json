@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ModuleWebApplication",
+      "request": "launch",
+      "mainClass": "org.moonbreezee.multimodule.web.ModuleWebApplication"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - BasicTypeConvert",
+      "request": "launch",
+      "mainClass": "basis.BasicTypeConvert"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - PolymorphismTest",
+      "request": "launch",
+      "mainClass": "classAndObject.PolymorphismTest"
+    },
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - Application",
+      "request": "launch",
+      "mainClass": "com.helloworld.Application"
+    }
+  ]
+}

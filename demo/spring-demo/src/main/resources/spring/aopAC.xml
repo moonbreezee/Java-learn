@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context" xmlns:aop="http://www.springframework.org/schema/aop" xsi:schemaLocation="
+    http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd
+    http://www.springframework.org/schema/aop
+    http://www.springframework.org/schema/aop/spring-aop-3.0.xsd ">
+
+  <aop:config>
+    <!-- 切面Aspect -->
+    <aop:aspect id="loggingAspect" ref="logging">
+      <!-- Pointcut，指明包裹类与被包裹类 -->
+      <aop:pointcut id="UserAllMethods" expression="execution(* org.moonbreezee.demo.aop.User.*(..))" />
+
+      <!-- Advice(s) -->
+      <!-- 建议(Advice) – 在连接点插入的实际代码(即切面的方法) -->
+      <!-- 在方法之前运行建议（插入的代码），执行beforeAdvice -->
+      <aop:before pointcut-ref="UserAllMethods" method="beforeAdvice" />
+      <aop:after pointcut-ref="UserAllMethods" method="afterAdvice" />
+      <!--  当方法执行成功，在方法之后运行建议（插入的代码） -->
+      <aop:after-returning pointcut-ref="UserAllMethods" returning="retVal" method="afterReturningAdvice" />
+      <!-- 仅在方法抛出异常后运行建议（插入的代码） -->
+      <aop:after-throwing pointcut-ref="UserAllMethods" throwing="ex" method="AfterThrowingAdvice" />
+
+    </aop:aspect>
+  </aop:config>
+
+  <!-- The user bean -->
+  <bean id="user" class="org.moonbreezee.demo.aop.User">
+    <property name="name" value="隔壁老王" />
+    <property name="id" value="99" />
+  </bean>
+
+  <!-- logging 切面定义 -->
+  <bean id="logging" class="org.moonbreezee.demo.aop.LoggingAspect" />
+</beans>

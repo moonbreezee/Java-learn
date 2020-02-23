@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+  <typeAliases>
+    <!-- 变量设置别名 -->
+    <typeAlias alias="User" type="org.moonbreezee.demo.User" />
+  </typeAliases>
+
+  <environments default="development">
+    <environment id="development">
+      <transactionManager type="JDBC" />
+
+      <dataSource type="UNPOOLED">
+        <!-- 数据库链接配置 -->
+        <property name="driver" value="com.mysql.cj.jdbc.Driver" />
+        <property name="url" value="jdbc:mysql://127.0.0.1:3306/mybatis_demo?serverTimezone=UTC&amp;useUnicode=true&amp;characterEncoding=utf8" />
+        <property name="username" value="root" />
+        <property name="password" value="911029" />
+      </dataSource>
+
+    </environment>
+  </environments>
+
+  <mappers>
+    <!-- mapper文件，这里id引入对应App.java中的方法类型 -->
+    <mapper resource="mapper/UserMapper.xml" />
+    <!-- 不适用xml文件的形式 -->
+    <mapper class = "org.moonbreezee.demo.mapper.UserMapper"/>
+  </mappers>
+
+</configuration>
