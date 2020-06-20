@@ -1,4 +1,4 @@
-package org.moonbreezee.multimodule.web;
+package org.qiuwww.multimodule.web;
 
   import org.mybatis.spring.annotation.MapperScan;
   import org.springframework.boot.SpringApplication;
@@ -9,8 +9,8 @@ package org.moonbreezee.multimodule.web;
  * @author qiu
  * @date 2020/1/3
  */
-@SpringBootApplication(scanBasePackages = {"org.moonbreezee.multimodule"})
-@MapperScan("org.moonbreezee.multimodule.dao.repository")
+@SpringBootApplication(scanBasePackages = {"org.qiuwww.multimodule"})
+@MapperScan("org.qiuwww.multimodule.dao.repository")
 public class ModuleWebApplication extends SpringBootServletInitializer {
   public static void main(String[] args) {
     SpringApplication.run(ModuleWebApplication.class, args);

@@ -11,7 +11,7 @@
     <!-- 切面Aspect -->
     <aop:aspect id="loggingAspect" ref="logging">
       <!-- Pointcut，指明包裹类与被包裹类 -->
-      <aop:pointcut id="UserAllMethods" expression="execution(* org.moonbreezee.demo.aop.User.*(..))" />
+      <aop:pointcut id="UserAllMethods" expression="execution(* org.qiuwww.demo.aop.User.*(..))" />
 
       <!-- Advice(s) -->
       <!-- 建议(Advice) – 在连接点插入的实际代码(即切面的方法) -->
@@ -27,11 +27,11 @@
   </aop:config>
 
   <!-- The user bean -->
-  <bean id="user" class="org.moonbreezee.demo.aop.User">
+  <bean id="user" class="org.qiuwww.demo.aop.User">
     <property name="name" value="隔壁老王" />
     <property name="id" value="99" />
   </bean>
 
   <!-- logging 切面定义 -->
-  <bean id="logging" class="org.moonbreezee.demo.aop.LoggingAspect" />
+  <bean id="logging" class="org.qiuwww.demo.aop.LoggingAspect" />
 </beans>

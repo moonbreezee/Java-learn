@@ -1,7 +1,7 @@
-package org.moonbreezee.demo.runoob;
+package org.qiuwww.demo.runoob;
 
-import org.moonbreezee.demo.runoob.Goddess;
-import org.moonbreezee.demo.runoob.GoddessDao;
+import org.qiuwww.demo.runoob.Goddess;
+import org.qiuwww.demo.runoob.GoddessDao;
 
 import java.sql.SQLException;
 import java.text.DateFormat;

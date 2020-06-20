@@ -1,4 +1,4 @@
-package com.moonbreezee.demo.springbootsecuritydemo.config;
+package com.qiuwww.demo.springbootsecuritydemo.config;
 
 // 权限配置
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,8 +19,8 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
-import com.moonbreezee.demo.springbootsecuritydemo.common.auth.JwtAuthError;
-import com.moonbreezee.demo.springbootsecuritydemo.common.auth.JwtAuthFilter;
+import com.qiuwww.demo.springbootsecuritydemo.common.auth.JwtAuthError;
+import com.qiuwww.demo.springbootsecuritydemo.common.auth.JwtAuthFilter;
 
 //这是spring security的java配置类，几个主要的配置：
 //用户信息加载配置

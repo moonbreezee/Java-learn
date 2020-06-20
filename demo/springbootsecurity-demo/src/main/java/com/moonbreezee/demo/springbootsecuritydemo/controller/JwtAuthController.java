@@ -1,9 +1,9 @@
-package com.moonbreezee.demo.springbootsecuritydemo.controller;
+package com.qiuwww.demo.springbootsecuritydemo.controller;
 
-import com.moonbreezee.demo.springbootsecuritydemo.common.util.JwtMiscUtil;
-import com.moonbreezee.demo.springbootsecuritydemo.common.util.JwtResult;
-import com.moonbreezee.demo.springbootsecuritydemo.model.JwtLoginRequest;
-import com.moonbreezee.demo.springbootsecuritydemo.service.JwtAuthService;
+import com.qiuwww.demo.springbootsecuritydemo.common.util.JwtMiscUtil;
+import com.qiuwww.demo.springbootsecuritydemo.common.util.JwtResult;
+import com.qiuwww.demo.springbootsecuritydemo.model.JwtLoginRequest;
+import com.qiuwww.demo.springbootsecuritydemo.service.JwtAuthService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

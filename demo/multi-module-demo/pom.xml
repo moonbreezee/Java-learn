@@ -21,7 +21,7 @@
     <relativePath /> <!-- lookup parent from repository -->
   </parent>
 
-  <groupId>org.moonbreezee.multimodule</groupId>
+  <groupId>org.qiuwww.multimodule</groupId>
   <artifactId>multi-module-demo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
@@ -34,22 +34,22 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>org.moonbreezee.multimodule</groupId>
+        <groupId>org.qiuwww.multimodule</groupId>
         <artifactId>module-biz</artifactId>
         <version>${module.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.moonbreezee.multimodule</groupId>
+        <groupId>org.qiuwww.multimodule</groupId>
         <artifactId>module-common</artifactId>
         <version>${module.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.moonbreezee.multimodule</groupId>
+        <groupId>org.qiuwww.multimodule</groupId>
         <artifactId>module-web</artifactId>
         <version>${module.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.moonbreezee.multimodule</groupId>
+        <groupId>org.qiuwww.multimodule</groupId>
         <artifactId>module-dao</artifactId>
         <version>${module.version}</version>
       </dependency>

@@ -1,4 +1,4 @@
-package com.moonbreezee.demo.springbootsecuritydemo.model;
+package com.qiuwww.demo.springbootsecuritydemo.model;
 
 // 登录请求类，这个类将会接受并校验用户登录时输入的账号密码，关于输入校验，可以参考 [spring boot输入数据校验(validation)]
 

@@ -1,9 +1,9 @@
-package com.moonbreezee.demo.springbootsecuritydemo.service.impl;
+package com.qiuwww.demo.springbootsecuritydemo.service.impl;
 
-import com.moonbreezee.demo.springbootsecuritydemo.common.auth.JwtAuthUser;
-import com.moonbreezee.demo.springbootsecuritydemo.common.auth.JwtUtil;
-import com.moonbreezee.demo.springbootsecuritydemo.model.JwtUser;
-import com.moonbreezee.demo.springbootsecuritydemo.service.JwtAuthService;
+import com.qiuwww.demo.springbootsecuritydemo.common.auth.JwtAuthUser;
+import com.qiuwww.demo.springbootsecuritydemo.common.auth.JwtUtil;
+import com.qiuwww.demo.springbootsecuritydemo.model.JwtUser;
+import com.qiuwww.demo.springbootsecuritydemo.service.JwtAuthService;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;

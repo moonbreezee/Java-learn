@@ -1,4 +1,4 @@
-package org.moonbreezee.demo;
+package org.qiuwww.demo;
 
 public class Logger {
   public void log() {

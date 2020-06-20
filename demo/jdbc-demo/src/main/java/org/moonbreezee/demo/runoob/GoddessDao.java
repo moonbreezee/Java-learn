@@ -1,7 +1,7 @@
-package org.moonbreezee.demo.runoob;
+package org.qiuwww.demo.runoob;
 
-import org.moonbreezee.demo.runoob.DbUtil;
-import org.moonbreezee.demo.runoob.Goddess;
+import org.qiuwww.demo.runoob.DbUtil;
+import org.qiuwww.demo.runoob.Goddess;
 
 import java.sql.Connection;
 import java.sql.ResultSet;

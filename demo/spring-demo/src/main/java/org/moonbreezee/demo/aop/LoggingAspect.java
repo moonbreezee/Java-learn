@@ -1,4 +1,4 @@
-package org.moonbreezee.demo.aop;
+package org.qiuwww.demo.aop;
 
 public class LoggingAspect {
   public void beforeAdvice() {

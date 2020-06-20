@@ -1,4 +1,4 @@
-package com.moonbreezee.demo.springbootsecuritydemo.common.util;
+package com.qiuwww.demo.springbootsecuritydemo.common.util;
 
 // MiscUtil.java 辅助类
 import java.util.HashMap;

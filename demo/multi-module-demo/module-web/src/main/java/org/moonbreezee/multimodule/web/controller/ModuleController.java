@@ -1,6 +1,6 @@
-package org.moonbreezee.multimodule.web.controller;
+package org.qiuwww.multimodule.web.controller;
 
-import org.moonbreezee.multimodule.biz.service.ModuleService;
+import org.qiuwww.multimodule.biz.service.ModuleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

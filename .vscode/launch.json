@@ -4,7 +4,7 @@
       "type": "java",
       "name": "CodeLens (Launch) - ModuleWebApplication",
       "request": "launch",
-      "mainClass": "org.moonbreezee.multimodule.web.ModuleWebApplication"
+      "mainClass": "org.qiuwww.multimodule.web.ModuleWebApplication"
     },
     {
       "type": "java",

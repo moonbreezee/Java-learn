@@ -1,4 +1,4 @@
-package com.moonbreezee.demo.springbootdemo.controller;
+package com.qiuwww.demo.springbootdemo.controller;
 
 import javax.annotation.Resource;
 
@@ -6,8 +6,8 @@ import com.github.pagehelper.PageInfo;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.web.bind.annotation.*;
 
-import com.moonbreezee.demo.springbootdemo.model.User;
-import com.moonbreezee.demo.springbootdemo.service.UserService;
+import com.qiuwww.demo.springbootdemo.model.User;
+import com.qiuwww.demo.springbootdemo.service.UserService;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.moonbreezee.demo.springbootdemo.service.impl;
+package com.qiuwww.demo.springbootdemo.service.impl;
 
 import javax.annotation.Resource;
 
@@ -8,9 +8,9 @@ import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
-import com.moonbreezee.demo.springbootdemo.model.User;
-import com.moonbreezee.demo.springbootdemo.repository.UserMapper;
-import com.moonbreezee.demo.springbootdemo.service.UserService;
+import com.qiuwww.demo.springbootdemo.model.User;
+import com.qiuwww.demo.springbootdemo.repository.UserMapper;
+import com.qiuwww.demo.springbootdemo.service.UserService;
 
 import java.util.List;
 

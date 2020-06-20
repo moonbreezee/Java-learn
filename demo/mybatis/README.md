@@ -14,7 +14,7 @@ MyBatis 核心特性：
 ## 创建项目
 
 ```xml
-  <groupId>org.moonbreezee.demo</groupId>
+  <groupId>org.qiuwww.demo</groupId>
   <artifactId>mybatis</artifactId>
   <version>1.0-SNAPSHOT</version>
 

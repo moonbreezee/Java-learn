@@ -5,7 +5,7 @@
 
   <typeAliases>
     <!-- 变量设置别名 -->
-    <typeAlias alias="User" type="org.moonbreezee.demo.User" />
+    <typeAlias alias="User" type="org.qiuwww.demo.User" />
   </typeAliases>
 
   <environments default="development">
@@ -27,7 +27,7 @@
     <!-- mapper文件，这里id引入对应App.java中的方法类型 -->
     <mapper resource="mapper/UserMapper.xml" />
     <!-- 不适用xml文件的形式 -->
-    <mapper class = "org.moonbreezee.demo.mapper.UserMapper"/>
+    <mapper class = "org.qiuwww.demo.mapper.UserMapper"/>
   </mappers>
 
 </configuration>

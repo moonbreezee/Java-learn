@@ -357,7 +357,7 @@ jdk8
 
 ## 堆中的对象地址转为字符串的实体
 
-比如：org.moonbreezee.multimodule.dao.model.User@40c286e8
+比如：org.qiuwww.multimodule.dao.model.User@40c286e8
 
 ### ans
 

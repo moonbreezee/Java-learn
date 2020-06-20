@@ -1,6 +1,6 @@
-package com.moonbreezee.demo.springbootdemo.controller;
+package com.qiuwww.demo.springbootdemo.controller;
 
-import com.moonbreezee.demo.springbootdemo.common.util.Result;
+import com.qiuwww.demo.springbootdemo.common.util.Result;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;

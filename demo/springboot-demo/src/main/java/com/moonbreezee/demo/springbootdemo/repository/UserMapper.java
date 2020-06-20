@@ -1,6 +1,6 @@
-package com.moonbreezee.demo.springbootdemo.repository;
+package com.qiuwww.demo.springbootdemo.repository;
 
-import com.moonbreezee.demo.springbootdemo.model.User;
+import com.qiuwww.demo.springbootdemo.model.User;
 
 import java.util.List;
 

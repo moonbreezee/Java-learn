@@ -1,4 +1,4 @@
-package org.moonbreezee.demo;
+package org.qiuwww.demo;
 
 public class User {
   public int id;

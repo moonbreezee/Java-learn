@@ -1,4 +1,4 @@
-package com.moonbreezee.demo.springbootdemo.common.util;
+package com.qiuwww.demo.springbootdemo.common.util;
 
 
 import org.slf4j.LoggerFactory;

@@ -1,4 +1,4 @@
-package com.moonbreezee.demo.springbootdemo.config;
+package com.qiuwww.demo.springbootdemo.config;
 // 由于现在Spring Boot不支持druid配置，参数调优部分的配置不会直接生效，需要配置datasource bean，从application.properties中读取值来装配datasource bean，新增DruidConfig.java配置文件
 
 // druid的监控功能，可以通过网址：http://localhost:8096/druid/index.html 查看。

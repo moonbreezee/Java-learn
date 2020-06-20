@@ -1,6 +1,6 @@
-package org.moonbreezee.multimodule.dao.repository;
+package org.qiuwww.multimodule.dao.repository;
 
-import org.moonbreezee.multimodule.dao.model.User;
+import org.qiuwww.multimodule.dao.model.User;
 
 public interface UserMapper {
   int deleteByPrimaryKey(Integer id);

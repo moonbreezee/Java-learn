@@ -1,4 +1,4 @@
-package org.moonbreezee.demo;
+package org.qiuwww.demo;
 
 import java.io.IOException;
 import java.io.Reader;
@@ -9,7 +9,7 @@ import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
-import org.moonbreezee.demo.mapper.UserMapper;
+import org.qiuwww.demo.mapper.UserMapper;
 
 //运行App2可以达到同样的效果，可以对比一下使用与不使用mybatis的区别
 public class App2 {

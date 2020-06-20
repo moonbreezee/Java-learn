@@ -7,7 +7,7 @@
     <version>2.2.2.RELEASE</version>
     <relativePath /> <!-- lookup parent from repository -->
   </parent>
-  <groupId>com.moonbreezee.demo</groupId>
+  <groupId>com.qiuwww.demo</groupId>
   <artifactId>springboot-demo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>springboot-demo</name>

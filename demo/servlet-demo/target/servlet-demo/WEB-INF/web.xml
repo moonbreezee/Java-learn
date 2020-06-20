@@ -5,7 +5,7 @@
 
   <servlet>
     <servlet-name>HttpServletDemo</servlet-name>
-    <servlet-class>org.moonbreezee.demo.servletdemo.HttpServletDemo</servlet-class>
+    <servlet-class>org.qiuwww.demo.servletdemo.HttpServletDemo</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>HttpServletDemo</servlet-name>
@@ -13,7 +13,7 @@
   </servlet-mapping>
   <servlet>
     <servlet-name>ServletDemo</servlet-name>
-    <servlet-class>org.moonbreezee.demo.servletdemo.ServletDemo</servlet-class>
+    <servlet-class>org.qiuwww.demo.servletdemo.ServletDemo</servlet-class>
     <init-param>
       <param-name>myParam</param-name>
       <param-value>paramValue</param-value>
@@ -26,7 +26,7 @@
 
   <servlet>
     <servlet-name>GenericServletDemo</servlet-name>
-    <servlet-class>org.moonbreezee.demo.servletdemo.GenericServletDemo</servlet-class>
+    <servlet-class>org.qiuwww.demo.servletdemo.GenericServletDemo</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>GenericServletDemo</servlet-name>

@@ -1,8 +1,8 @@
 
-package com.moonbreezee.demo.springbootdemo.controller;
+package com.qiuwww.demo.springbootdemo.controller;
 
-import com.moonbreezee.demo.springbootdemo.model.User;
-import com.moonbreezee.demo.springbootdemo.service.UserService;
+import com.qiuwww.demo.springbootdemo.model.User;
+import com.qiuwww.demo.springbootdemo.service.UserService;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.data.redis.core.RedisTemplate;

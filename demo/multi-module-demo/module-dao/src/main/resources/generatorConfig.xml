@@ -29,7 +29,7 @@
 
     <!-- targetPackage：生成的实体类所在的包 -->
     <!-- targetProject：生成的实体类所在的硬盘位置 -->
-    <javaModelGenerator targetPackage="org.moonbreezee.multimodule.dao.model" targetProject="src/main/java">
+    <javaModelGenerator targetPackage="org.qiuwww.multimodule.dao.model" targetProject="src/main/java">
       <!-- 是否允许子包 -->
       <property name="enableSubPackages" value="false" />
       <!-- 是否对modal添加构造函数 -->
@@ -42,15 +42,15 @@
 
     <!-- targetPackage 和 targetProject：生成的  mapper xml 文件的包和位置 -->
     <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources">
-      <!-- 是否在当前路径下新加一层schema,ex：false路径com.qikegu.demo.model， org.moonbreezee.multimodule.model.[schemaName] -->
+      <!-- 是否在当前路径下新加一层schema,ex：false路径com.qikegu.demo.model， org.qiuwww.multimodule.model.[schemaName] -->
       <property name="enableSubPackages" value="false" />
       <!-- 是否针对string类型的字段在set的时候进行trim调用 -->
       <property name="trimStrings" value="true" />
     </sqlMapGenerator>
 
     <!-- targetPackage 和  targetProject：生成的  java interface 文件的包和位置 -->
-    <javaClientGenerator type="XMLMAPPER" targetPackage="org.moonbreezee.multimodule.dao.repository" targetProject="src/main/java">
-      <!-- 是否在当前路径下新加一层schema,ex：false路径com.qikegu.demo.model， org.moonbreezee.multimodule.dao.model.[schemaName] -->
+    <javaClientGenerator type="XMLMAPPER" targetPackage="org.qiuwww.multimodule.dao.repository" targetProject="src/main/java">
+      <!-- 是否在当前路径下新加一层schema,ex：false路径com.qikegu.demo.model， org.qiuwww.multimodule.dao.model.[schemaName] -->
       <property name="enableSubPackages" value="false" />
     </javaClientGenerator>
 

@@ -1,4 +1,4 @@
-package com.moonbreezee.demo.springbootdemo.controller;
+package com.qiuwww.demo.springbootdemo.controller;
 
 import javax.validation.Valid;
 
@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.moonbreezee.demo.springbootdemo.common.util.MiscUtil;
-import com.moonbreezee.demo.springbootdemo.common.util.Result;
-import com.moonbreezee.demo.springbootdemo.model.RegisterRequest;
+import com.qiuwww.demo.springbootdemo.common.util.MiscUtil;
+import com.qiuwww.demo.springbootdemo.common.util.Result;
+import com.qiuwww.demo.springbootdemo.model.RegisterRequest;
 
 // 创建AuthController控制器类，实现一个用户注册的接口
 @RestController

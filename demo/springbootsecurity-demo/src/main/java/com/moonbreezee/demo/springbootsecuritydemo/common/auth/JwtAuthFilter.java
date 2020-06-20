@@ -1,4 +1,4 @@
-package com.moonbreezee.demo.springbootsecuritydemo.common.auth;
+package com.qiuwww.demo.springbootsecuritydemo.common.auth;
 
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

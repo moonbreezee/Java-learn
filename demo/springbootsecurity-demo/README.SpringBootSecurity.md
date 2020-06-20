@@ -2,8 +2,8 @@
 
 ## spring security 的集成
 
-- demo/springbootsecurity-demo/src/main/java/com/moonbreezee/demo/springbootsecuritydemo/controller/HelloController.java
-- demo/springbootsecurity-demo/src/main/java/com/moonbreezee/demo/springbootsecuritydemo/config/SecurityConfig.java
+- demo/springbootsecurity-demo/src/main/java/com/qiuwww/demo/springbootsecuritydemo/controller/HelloController.java
+- demo/springbootsecurity-demo/src/main/java/com/qiuwww/demo/springbootsecuritydemo/config/SecurityConfig.java
 
 spring security 的实现基于 servlet 过滤器，在每个请求被 spring MVC 处理之前，先要经过 spring security 过滤器，从而实现权限控制。权限控制分两部分，**认证和授权**，**用户认证就是指登录，有些接口要用户登录后才能访问**；授权是指根据用户角色授予不同权限，有些接口要具有一定角色的用户才能访问，如管理相关的接口只限 admin 角色访问。
 

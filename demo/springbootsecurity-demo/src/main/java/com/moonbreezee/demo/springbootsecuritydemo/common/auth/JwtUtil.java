@@ -1,4 +1,4 @@
-package com.moonbreezee.demo.springbootsecuritydemo.common.auth;
+package com.qiuwww.demo.springbootsecuritydemo.common.auth;
 
 // JwtUtil.java jwt处理类，加密解密等操作
 import java.io.Serializable;
@@ -12,7 +12,7 @@ import java.io.Serializable;
   import org.springframework.security.core.userdetails.UserDetails;
   import org.springframework.stereotype.Component;
 
-  import com.moonbreezee.demo.springbootsecuritydemo.model.JwtUser;
+  import com.qiuwww.demo.springbootsecuritydemo.model.JwtUser;
 
   import io.jsonwebtoken.Claims;
   import io.jsonwebtoken.Jwts;

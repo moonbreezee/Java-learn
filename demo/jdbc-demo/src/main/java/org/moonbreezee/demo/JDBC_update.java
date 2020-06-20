@@ -1,4 +1,4 @@
-package org.moonbreezee.demo;
+package org.qiuwww.demo;
 
 import java.sql.*;
 public class JDBC_update {

@@ -1,4 +1,4 @@
-package com.moonbreezee.demo.springbootsecuritydemo.common.util;
+package com.qiuwww.demo.springbootsecuritydemo.common.util;
 
 // Result.java 结果封装类
 import java.io.Serializable;

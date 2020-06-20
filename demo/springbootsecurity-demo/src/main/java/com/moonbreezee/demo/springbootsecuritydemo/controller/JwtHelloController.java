@@ -1,4 +1,4 @@
-package com.moonbreezee.demo.springbootsecuritydemo.controller;
+package com.qiuwww.demo.springbootsecuritydemo.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

@@ -7,17 +7,17 @@
 
 ```xml
 <!-- 为了与其他相关的demo区分，这里最后一个选项使用artifactId拼接 -->
-<groupId>org.moonbreezee.multimodule</groupId>
+<groupId>org.qiuwww.multimodule</groupId>
 <artifactId>multi-module</artifactId>
 <!-- 次一级的 package 应该也要与这里的 id 保持一致 -->
 ```
 
 每个子包的 package:
 
-- org.moonbreezee.multimodule.web
-- org.moonbreezee.multimodule.biz
-- org.moonbreezee.multimodule.common
-- org.moonbreezee.multimodule.dao
+- org.qiuwww.multimodule.web
+- org.qiuwww.multimodule.biz
+- org.qiuwww.multimodule.common
+- org.qiuwww.multimodule.dao
 
 ## 项目结构
 
@@ -69,7 +69,7 @@ biz 层依赖 dao 及 common 层， web 层依赖 biz 层
 
 (module-web)ModuleWebApplication -> ModuleWebController ->(module-biz) ModuleService -> ModuleServiceImpl
 
-需要设置扫描包的值: `@SpringBootApplication(scanBasePackages = "org.moonbreezee.multimodule")`
+需要设置扫描包的值: `@SpringBootApplication(scanBasePackages = "org.qiuwww.multimodule")`
 
 ## 通过 mybatis-genertaor 工具生成 dao 层相关文件（ DO 、 Mapper 、 xml ）
 
@@ -190,7 +190,7 @@ biz 层依赖 dao 及 common 层， web 层依赖 biz 层
 
 ## Error
 
-`Field userMapper in org.moonbreezee.multimodule.biz.service.impl.ModuleServiceImpl required a bean of type 'org.moonbreezee.multimodule.dao.repository.UserMapper' that could not be found.`
+`Field userMapper in org.qiuwww.multimodule.biz.service.impl.ModuleServiceImpl required a bean of type 'org.qiuwww.multimodule.dao.repository.UserMapper' that could not be found.`
 
 ### private Long id
 

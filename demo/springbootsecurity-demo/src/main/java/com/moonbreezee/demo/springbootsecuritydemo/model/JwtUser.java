@@ -1,4 +1,4 @@
-package com.moonbreezee.demo.springbootsecuritydemo.model;
+package com.qiuwww.demo.springbootsecuritydemo.model;
 
 // 第一波，对象不全
 public class JwtUser {

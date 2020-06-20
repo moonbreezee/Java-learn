@@ -1,4 +1,4 @@
-package com.moonbreezee.demo.springbootdemo.common.util;
+package com.qiuwww.demo.springbootdemo.common.util;
 
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;

@@ -3,7 +3,7 @@
 
   <!-- bean配置文件 -->
   <!--扫描包路径-->
-  <context:component-scan base-package="org.moonbreezee.demo" />
+  <context:component-scan base-package="org.qiuwww.demo" />
 
   <!-- 开启注解 -->
   <context:annotation-config />
@@ -26,7 +26,7 @@
     2. bean的生命周期回调方法配置
     3. bean的依赖关系 -->
 
-  <bean id="customerBean" class="org.moonbreezee.demo.Customer" init-method="init" destroy-method="close">
+  <bean id="customerBean" class="org.qiuwww.demo.Customer" init-method="init" destroy-method="close">
     <!-- 添加类的依赖关系-->
     <constructor-arg ref="person" />
     <!-- 这里配置类的初始化参数，这里就对应Customer的构造函数参数 -->
@@ -35,10 +35,10 @@
     <property name="logger" ref="logger" />
   </bean>
   <!-- lazy-init: 懒加载，让Spring容器在Bean首次用到时创建Bean实例，而不是在应用一启动就创建-->
-  <bean id="person" class="org.moonbreezee.demo.Person" lazy-init="true">
+  <bean id="person" class="org.qiuwww.demo.Person" lazy-init="true">
     <!-- 构造函数参数-->
     <constructor-arg value="female" />
   </bean>
   <!-- 创建logger对象，注入到Customer对象中 -->
-  <bean id="logger" class="org.moonbreezee.demo.Logger"></bean>
+  <bean id="logger" class="org.qiuwww.demo.Logger"></bean>
 </beans>

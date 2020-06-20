@@ -1,4 +1,4 @@
-package org.moonbreezee.demo.mapper;
+package org.qiuwww.demo.mapper;
 
 import java.util.List;
 
@@ -10,7 +10,7 @@ import org.apache.ibatis.annotations.Results;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 
-import org.moonbreezee.demo.User;
+import org.qiuwww.demo.User;
 //这里是一个接口
 public interface UserMapper {
 

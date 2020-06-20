@@ -1,6 +1,6 @@
-package com.moonbreezee.demo.springbootsecuritydemo.service;
+package com.qiuwww.demo.springbootsecuritydemo.service;
 
-import com.moonbreezee.demo.springbootsecuritydemo.model.JwtUser;
+import com.qiuwww.demo.springbootsecuritydemo.model.JwtUser;
 
 public interface JwtAuthService {
   JwtUser register(JwtUser userToAdd);

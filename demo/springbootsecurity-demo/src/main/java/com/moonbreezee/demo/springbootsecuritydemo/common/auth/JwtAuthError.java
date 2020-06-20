@@ -1,4 +1,4 @@
-package com.moonbreezee.demo.springbootsecuritydemo.common.auth;
+package com.qiuwww.demo.springbootsecuritydemo.common.auth;
 
 
 // 认证失败、鉴权失败处理

@@ -1,9 +1,9 @@
-package com.moonbreezee.demo.springbootdemo.controller;
+package com.qiuwww.demo.springbootdemo.controller;
 
 // 通过继承ErrorController接口可以设置自定义的错误页。
 // 这里用来替换默认的ErrorController
 
-import com.moonbreezee.demo.springbootdemo.common.util.Result;
+import com.qiuwww.demo.springbootdemo.common.util.Result;
 import org.springframework.boot.web.servlet.error.ErrorController;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

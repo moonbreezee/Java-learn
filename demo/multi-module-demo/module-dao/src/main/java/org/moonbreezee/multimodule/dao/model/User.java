@@ -1,4 +1,4 @@
-package org.moonbreezee.multimodule.dao.model;
+package org.qiuwww.multimodule.dao.model;
 
 public class User {
   private Integer id;

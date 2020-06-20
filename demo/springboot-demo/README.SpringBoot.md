@@ -124,15 +124,15 @@ MyBatis Generator 有三种用法：命令行、eclipse 插件、maven 插件。
 
 在实际项目中，一般会把结果放在一个封装类中，封装类中包含 http 状态值，状态消息，以及实际的数据。
 
-- demo/springboot-demo/src/main/java/com/moonbreezee/demo/springbootdemo/controller/ResultWrapController.java
-- demo/springboot-demo/src/main/java/com/moonbreezee/demo/springbootdemo/common/util/Result.java
+- demo/springboot-demo/src/main/java/com/qiuwww/demo/springbootdemo/controller/ResultWrapController.java
+- demo/springboot-demo/src/main/java/com/qiuwww/demo/springbootdemo/common/util/Result.java
 
 ## 输入数据校验(validation)
 
-- demo/springboot-demo/src/main/java/com/moonbreezee/demo/springbootdemo/controller/AuthController.java
-- demo/springboot-demo/src/main/java/com/moonbreezee/demo/springbootdemo/model/RegisterRequest.java
-- demo/springboot-demo/src/main/java/com/moonbreezee/demo/springbootdemo/common/util/Result.java
-- demo/springboot-demo/src/main/java/com/moonbreezee/demo/springbootdemo/common/util/MiscUtil.java
+- demo/springboot-demo/src/main/java/com/qiuwww/demo/springbootdemo/controller/AuthController.java
+- demo/springboot-demo/src/main/java/com/qiuwww/demo/springbootdemo/model/RegisterRequest.java
+- demo/springboot-demo/src/main/java/com/qiuwww/demo/springbootdemo/common/util/Result.java
+- demo/springboot-demo/src/main/java/com/qiuwww/demo/springbootdemo/common/util/MiscUtil.java
 
 ## 环境配置（profile）切换
 

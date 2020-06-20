@@ -1,8 +1,8 @@
-package org.moonbreezee.multimodule.biz.service.impl;
+package org.qiuwww.multimodule.biz.service.impl;
 
-import org.moonbreezee.multimodule.biz.service.ModuleService;
-import org.moonbreezee.multimodule.dao.model.User;
-import org.moonbreezee.multimodule.dao.repository.UserMapper;
+import org.qiuwww.multimodule.biz.service.ModuleService;
+import org.qiuwww.multimodule.dao.model.User;
+import org.qiuwww.multimodule.dao.repository.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

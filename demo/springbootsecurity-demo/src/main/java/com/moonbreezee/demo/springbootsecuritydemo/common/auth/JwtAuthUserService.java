@@ -1,6 +1,6 @@
-package com.moonbreezee.demo.springbootsecuritydemo.common.auth;
+package com.qiuwww.demo.springbootsecuritydemo.common.auth;
 
-import com.moonbreezee.demo.springbootsecuritydemo.model.JwtUser;
+import com.qiuwww.demo.springbootsecuritydemo.model.JwtUser;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

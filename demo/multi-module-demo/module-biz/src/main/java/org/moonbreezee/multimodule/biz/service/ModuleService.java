@@ -1,4 +1,4 @@
-package org.moonbreezee.multimodule.biz.service;
+package org.qiuwww.multimodule.biz.service;
 
 /**
  * @author qww 

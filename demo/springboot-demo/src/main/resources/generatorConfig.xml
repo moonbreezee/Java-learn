@@ -31,7 +31,7 @@
 
     <!-- targetPackage：生成的实体类所在的包 -->
     <!-- targetProject：生成的实体类所在的硬盘位置 -->
-    <javaModelGenerator targetPackage="com.moonbreezee.demo.springbootdemo.model" targetProject="src/main/java">
+    <javaModelGenerator targetPackage="com.qiuwww.demo.springbootdemo.model" targetProject="src/main/java">
       <!-- 是否允许子包 -->
       <property name="enableSubPackages" value="false" />
       <!-- 是否对modal添加构造函数 -->
@@ -51,7 +51,7 @@
     </sqlMapGenerator>
 
     <!-- targetPackage 和  targetProject：生成的  java interface 文件的包和位置 -->
-    <javaClientGenerator type="XMLMAPPER" targetPackage="com.moonbreezee.demo.springbootdemo.repository" targetProject="src/main/java">
+    <javaClientGenerator type="XMLMAPPER" targetPackage="com.qiuwww.demo.springbootdemo.repository" targetProject="src/main/java">
       <!-- 是否在当前路径下新加一层schema,ex：false路径com.qikegu.demo.model， com.qikegu.demo.model.[schemaName] -->
       <property name="enableSubPackages" value="false" />
     </javaClientGenerator>

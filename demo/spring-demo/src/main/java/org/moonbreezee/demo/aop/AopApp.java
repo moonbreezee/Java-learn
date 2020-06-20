@@ -1,4 +1,4 @@
-package org.moonbreezee.demo.aop;
+package org.qiuwww.demo.aop;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

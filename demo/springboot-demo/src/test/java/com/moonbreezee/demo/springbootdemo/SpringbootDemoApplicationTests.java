@@ -1,4 +1,4 @@
-package com.moonbreezee.demo.springbootdemo;
+package com.qiuwww.demo.springbootdemo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
